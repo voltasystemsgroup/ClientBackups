@@ -1,0 +1,2453 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+        Product name: 2N IP Solo
+       Serial number: 54-2201-8523
+    Software version: 2.24.1.33.12
+    Hardware version: 220v3
+  Bootloader version: 2.25.0.34.0
+             Display: No
+         Card reader: No
+-->
+<DeviceDatabase Version="17">
+	<Network>
+		<DhcpEnabled>1</DhcpEnabled>
+		<Hostname/>
+		<IpAddress>192.168.1.100</IpAddress>
+		<NetworkMask>255.255.255.0</NetworkMask>
+		<DefaultGateway>192.168.1.1</DefaultGateway>
+		<PrimaryDnsServer/>
+		<SecondaryDnsServer/>
+		<VlanEnabled>0</VlanEnabled>
+		<VlanId>1</VlanId>
+		<LinkMode>0</LinkMode>
+		<Eap>
+			<Enabled>0</Enabled>
+			<Identity/>
+			<Md5>
+				<Enabled>0</Enabled>
+				<Password Encryption="1"/>
+			</Md5>
+			<Tls>
+				<Enabled>0</Enabled>
+				<CACert>0</CACert>
+				<CertPK>0</CertPK>
+			</Tls>
+		</Eap>
+		<Lte>
+			<Sim>
+				<Pin>0000</Pin>
+			</Sim>
+			<Apn>
+				<Imsi/>
+				<Name/>
+				<User/>
+				<Password Encryption="1"/>
+			</Apn>
+			<Services>
+				<HttpServer>0</HttpServer>
+				<RtspServer>0</RtspServer>
+				<Sip>0</Sip>
+			</Services>
+		</Lte>
+		<LinkSignalling>1</LinkSignalling>
+	</Network>
+	<WebServer>
+		<DeviceName>2N IP Solo</DeviceName>
+		<Port>80</Port>
+		<PasswordHash>cMzZAHM41tgd07YnFiG5z5qX6gA=</PasswordHash>
+		<Language>17</Language>
+		<RemoteAccessEnabled>1</RemoteAccessEnabled>
+		<BlobCustomLanguage/>
+		<SecurePort>443</SecurePort>
+		<UserCertPK>0</UserCertPK>
+	</WebServer>
+	<HttpApi>
+		<Account At="0">
+			<Enabled>0</Enabled>
+			<UserName/>
+			<Password Encryption="1"/>
+			<Privilege>
+				<SystemMonitor>0</SystemMonitor>
+				<SystemControl>0</SystemControl>
+				<CameraMonitor>0</CameraMonitor>
+				<AudioControl>0</AudioControl>
+				<EmailControl>0</EmailControl>
+				<CallMonitor>0</CallMonitor>
+				<CallControl>0</CallControl>
+				<IoMonitor>0</IoMonitor>
+				<IoControl>0</IoControl>
+				<SwitchControl>0</SwitchControl>
+				<DisplayControl>0</DisplayControl>
+				<KbdMonitor>0</KbdMonitor>
+				<UidMonitor>0</UidMonitor>
+			</Privilege>
+		</Account>
+		<Account At="1">
+			<Enabled>0</Enabled>
+			<UserName/>
+			<Password Encryption="1"/>
+			<Privilege>
+				<SystemMonitor>0</SystemMonitor>
+				<SystemControl>0</SystemControl>
+				<CameraMonitor>0</CameraMonitor>
+				<AudioControl>0</AudioControl>
+				<EmailControl>0</EmailControl>
+				<CallMonitor>0</CallMonitor>
+				<CallControl>0</CallControl>
+				<IoMonitor>0</IoMonitor>
+				<IoControl>0</IoControl>
+				<SwitchControl>0</SwitchControl>
+				<DisplayControl>0</DisplayControl>
+				<KbdMonitor>0</KbdMonitor>
+				<UidMonitor>0</UidMonitor>
+			</Privilege>
+		</Account>
+		<Account At="2">
+			<Enabled>0</Enabled>
+			<UserName/>
+			<Password Encryption="1"/>
+			<Privilege>
+				<SystemMonitor>0</SystemMonitor>
+				<SystemControl>0</SystemControl>
+				<CameraMonitor>0</CameraMonitor>
+				<AudioControl>0</AudioControl>
+				<EmailControl>0</EmailControl>
+				<CallMonitor>0</CallMonitor>
+				<CallControl>0</CallControl>
+				<IoMonitor>0</IoMonitor>
+				<IoControl>0</IoControl>
+				<SwitchControl>0</SwitchControl>
+				<DisplayControl>0</DisplayControl>
+				<KbdMonitor>0</KbdMonitor>
+				<UidMonitor>0</UidMonitor>
+			</Privilege>
+		</Account>
+		<Account At="3">
+			<Enabled>0</Enabled>
+			<UserName/>
+			<Password Encryption="1"/>
+			<Privilege>
+				<SystemMonitor>0</SystemMonitor>
+				<SystemControl>0</SystemControl>
+				<CameraMonitor>0</CameraMonitor>
+				<AudioControl>0</AudioControl>
+				<EmailControl>0</EmailControl>
+				<CallMonitor>0</CallMonitor>
+				<CallControl>0</CallControl>
+				<IoMonitor>0</IoMonitor>
+				<IoControl>0</IoControl>
+				<SwitchControl>0</SwitchControl>
+				<DisplayControl>0</DisplayControl>
+				<KbdMonitor>0</KbdMonitor>
+				<UidMonitor>0</UidMonitor>
+			</Privilege>
+		</Account>
+		<Account At="4">
+			<Enabled>0</Enabled>
+			<UserName/>
+			<Password Encryption="1"/>
+			<Privilege>
+				<SystemMonitor>0</SystemMonitor>
+				<SystemControl>0</SystemControl>
+				<CameraMonitor>0</CameraMonitor>
+				<AudioControl>0</AudioControl>
+				<EmailControl>0</EmailControl>
+				<CallMonitor>0</CallMonitor>
+				<CallControl>0</CallControl>
+				<IoMonitor>0</IoMonitor>
+				<IoControl>0</IoControl>
+				<SwitchControl>0</SwitchControl>
+				<DisplayControl>0</DisplayControl>
+				<KbdMonitor>0</KbdMonitor>
+				<UidMonitor>0</UidMonitor>
+			</Privilege>
+		</Account>
+		<Service>
+			<System>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</System>
+			<Switch>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Switch>
+			<Io>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Io>
+			<Camera>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Camera>
+			<Audio>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Audio>
+			<Display>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Display>
+			<Email>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Email>
+			<Call>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Call>
+			<Log>
+				<Enabled>1</Enabled>
+				<ConnType>1</ConnType>
+				<AuthMethod>2</AuthMethod>
+			</Log>
+		</Service>
+	</HttpApi>
+	<Phone>
+		<Sip At="0">
+			<User>
+				<DisplayName>2N IP Solo</DisplayName>
+				<Id>111</Id>
+				<AuthId/>
+				<PasswordString Encryption="1"/>
+				<UseAuthId>0</UseAuthId>
+				<CommunicationType>0</CommunicationType>
+			</User>
+			<Client>
+				<Domain>192.168.1.1</Domain>
+				<Port>5060</Port>
+			</Client>
+			<Proxy>
+				<Address>192.168.1.1</Address>
+				<Port>5060</Port>
+				<BackupAddress/>
+				<BackupPort>5060</BackupPort>
+			</Proxy>
+			<Registrar>
+				<Enabled>0</Enabled>
+				<Address>192.168.1.1</Address>
+				<Port>5060</Port>
+				<ExpireTime>120</ExpireTime>
+				<BackupAddress/>
+				<BackupPort>5060</BackupPort>
+			</Registrar>
+			<Misc>
+				<AnswerMode>0</AnswerMode>
+				<KeepAlive>0</KeepAlive>
+				<Dscp>0</Dscp>
+				<IpFilter>0</IpFilter>
+				<PrackEnabled>0</PrackEnabled>
+				<ReferEnabled>0</ReferEnabled>
+				<ExternalIpAddress/>
+				<IncomingSecureOnly>0</IncomingSecureOnly>
+				<OutgoingSecure>0</OutgoingSecure>
+				<IgnoreEarlyMedia>0</IgnoreEarlyMedia>
+			</Misc>
+			<Tls>
+				<CACert>0</CACert>
+				<CertPK>0</CertPK>
+			</Tls>
+		</Sip>
+		<Sip At="1">
+			<User>
+				<DisplayName>2N IP Intercom 9837793349</DisplayName>
+				<Id>9837793349</Id>
+				<AuthId>9837793349</AuthId>
+				<PasswordString Encryption="1">PPgksKRHIc0FfWqhP6NOfQ==</PasswordString>
+				<UseAuthId>1</UseAuthId>
+				<CommunicationType>1</CommunicationType>
+			</User>
+			<Client>
+				<Domain>proxy-12.my2n.com</Domain>
+				<Port>5062</Port>
+			</Client>
+			<Proxy>
+				<Address>proxy-12.my2n.com</Address>
+				<Port>5060</Port>
+				<BackupAddress/>
+				<BackupPort>5060</BackupPort>
+			</Proxy>
+			<Registrar>
+				<Enabled>1</Enabled>
+				<Address>proxy-12.my2n.com</Address>
+				<Port>5060</Port>
+				<ExpireTime>120</ExpireTime>
+				<BackupAddress/>
+				<BackupPort>5060</BackupPort>
+			</Registrar>
+			<Misc>
+				<AnswerMode>2</AnswerMode>
+				<KeepAlive>0</KeepAlive>
+				<Dscp>0</Dscp>
+				<IpFilter>0</IpFilter>
+				<PrackEnabled>0</PrackEnabled>
+				<ReferEnabled>0</ReferEnabled>
+				<ExternalIpAddress/>
+				<IncomingSecureOnly>0</IncomingSecureOnly>
+				<OutgoingSecure>0</OutgoingSecure>
+				<IgnoreEarlyMedia>0</IgnoreEarlyMedia>
+			</Misc>
+			<Tls>
+				<CACert>0</CACert>
+				<CertPK>0</CertPK>
+			</Tls>
+		</Sip>
+		<Rtp>
+			<BasePort>4900</BasePort>
+			<Timeout>60</Timeout>
+			<EarlyMedia>
+				<MulticastAddress>232.0.0.16</MulticastAddress>
+				<AudioPort>12000</AudioPort>
+				<VideoPort>12002</VideoPort>
+			</EarlyMedia>
+		</Rtp>
+		<Audio>
+			<JitterComp>1</JitterComp>
+			<Dscp>0</Dscp>
+			<Codecs>
+				<PCMU>
+					<Priority>2</Priority>
+					<Enabled>1</Enabled>
+				</PCMU>
+				<PCMA>
+					<Priority>1</Priority>
+					<Enabled>1</Enabled>
+				</PCMA>
+				<L16>
+					<Priority>4</Priority>
+					<Enabled>0</Enabled>
+				</L16>
+				<G729>
+					<Priority>3</Priority>
+					<Enabled>1</Enabled>
+				</G729>
+				<G722>
+					<Priority>1</Priority>
+					<Enabled>1</Enabled>
+				</G722>
+			</Codecs>
+		</Audio>
+		<Dtmf>
+			<SendMode>0</SendMode>
+			<SendInAudio>0</SendInAudio>
+			<SendInRtp>1</SendInRtp>
+			<SendInSip>0</SendInSip>
+			<ReceiveFromAudio>0</ReceiveFromAudio>
+			<ReceiveFromRtp>1</ReceiveFromRtp>
+			<ReceiveFromSip>0</ReceiveFromSip>
+		</Dtmf>
+		<Video>
+			<Dscp>0</Dscp>
+			<MaxPacketSize>1400</MaxPacketSize>
+			<Codecs>
+				<h264>
+					<Priority>1</Priority>
+					<Enabled>1</Enabled>
+				</h264>
+				<h263p>
+					<Priority>3</Priority>
+					<Enabled>1</Enabled>
+				</h263p>
+				<h263>
+					<Priority>2</Priority>
+					<Enabled>1</Enabled>
+				</h263>
+				<mpeg4>
+					<Priority>4</Priority>
+					<Enabled>0</Enabled>
+				</mpeg4>
+			</Codecs>
+			<h264>
+				<Framerate>1</Framerate>
+				<Resolution>3</Resolution>
+				<Bitrate>4</Bitrate>
+				<PayloadType1>123</PayloadType1>
+				<PayloadType2>124</PayloadType2>
+				<PolycomSdp>0</PolycomSdp>
+				<SdpVideoConnectionAddress/>
+				<SdpVideoConnectionPort>0</SdpVideoConnectionPort>
+			</h264>
+			<h263>
+				<Framerate>1</Framerate>
+				<Resolution>2</Resolution>
+				<Bitrate>1</Bitrate>
+				<PayloadType>98</PayloadType>
+			</h263>
+			<mpeg4>
+				<Framerate>1</Framerate>
+				<Resolution>3</Resolution>
+				<Bitrate>4</Bitrate>
+			</mpeg4>
+		</Video>
+		<Calls>
+			<MaxCallDuration>120</MaxCallDuration>
+			<Outgoing>
+				<MaxRingingDuration>32</MaxRingingDuration>
+				<MaxAutoDialingCycles>3</MaxAutoDialingCycles>
+				<SuppressCallProgressTones>0</SuppressCallProgressTones>
+			</Outgoing>
+			<Incoming>
+				<MaxRingingDuration>32</MaxRingingDuration>
+				<AutoAnswerTimeout>0</AutoAnswerTimeout>
+			</Incoming>
+		</Calls>
+	</Phone>
+	<RtspServer>
+		<Port>554</Port>
+		<Enabled>0</Enabled>
+		<AnonymousAccess>0</AnonymousAccess>
+		<AuthorizedClientAddress At="0"/>
+		<AuthorizedClientAddress At="1"/>
+		<AuthorizedClientAddress At="2"/>
+		<AuthorizedClientAddress At="3"/>
+		<UdpUnicastEnabled>1</UdpUnicastEnabled>
+		<BasePort>4800</BasePort>
+		<Audio>
+			<Enabled>1</Enabled>
+		</Audio>
+		<Video>
+			<Enabled>1</Enabled>
+			<Codec>1</Codec>
+			<MaxPacketSize>1400</MaxPacketSize>
+			<Dscp>0</Dscp>
+			<h264>
+				<Framerate>1</Framerate>
+				<Resolution>3</Resolution>
+				<Bitrate>4</Bitrate>
+			</h264>
+			<h263>
+				<Framerate>1</Framerate>
+				<Resolution>2</Resolution>
+				<Bitrate>4</Bitrate>
+			</h263>
+			<mpeg4>
+				<Framerate>1</Framerate>
+				<Resolution>3</Resolution>
+				<Bitrate>4</Bitrate>
+			</mpeg4>
+			<mjpeg>
+				<Framerate>1</Framerate>
+				<Resolution>5</Resolution>
+				<JpegQuality>85</JpegQuality>
+			</mjpeg>
+		</Video>
+	</RtspServer>
+	<RtspClient>
+		<Enabled>0</Enabled>
+		<Address/>
+		<Username/>
+		<Password Encryption="1"/>
+		<RtpPort>4700</RtpPort>
+	</RtspClient>
+	<Picture>
+		<JpegQuality>85</JpegQuality>
+		<SnomPhone>
+			<ActivatedByCall>0</ActivatedByCall>
+			<Framerate>5</Framerate>
+		</SnomPhone>
+	</Picture>
+	<Keyboard>
+		<VirtualNumberDial>0</VirtualNumberDial>
+		<FloorAppDial>0</FloorAppDial>
+		<TelephoneMode>0</TelephoneMode>
+		<MaxDialDigits>20</MaxDialDigits>
+		<CheckDialedNumber>0</CheckDialedNumber>
+		<RepPressFunction>1</RepPressFunction>
+		<LegacySwitchCode>0</LegacySwitchCode>
+		<FactoryResetEnabled>1</FactoryResetEnabled>
+	</Keyboard>
+	<Backlight>
+		<BkDayBrightness>50</BkDayBrightness>
+		<BkNightBrightness>25</BkNightBrightness>
+		<SigDayBrightness>50</SigDayBrightness>
+		<SigNightBrightness>25</SigNightBrightness>
+	</Backlight>
+	<Audio>
+		<MasterVolume>0</MasterVolume>
+		<KeyBeepVolume>0</KeyBeepVolume>
+		<WarnBeepVolume>0</WarnBeepVolume>
+		<UserSoundVolume>0</UserSoundVolume>
+		<SwitchSignalVolume>0</SwitchSignalVolume>
+		<CallProgressToneVolume>0</CallProgressToneVolume>
+		<RingingVolume>0</RingingVolume>
+		<AdaptiveVolume>
+			<Enabled>0</Enabled>
+			<MaxGain>12</MaxGain>
+			<NoiseThreshold>-24</NoiseThreshold>
+		</AdaptiveVolume>
+		<NoiseDetection>
+			<Enabled>0</Enabled>
+			<Threshold>-5</Threshold>
+			<MinimumTime>10</MinimumTime>
+			<MaximumTime>10</MaximumTime>
+		</NoiseDetection>
+		<DebugMode>0</DebugMode>
+	</Audio>
+	<Camera>
+		<Brightness>5</Brightness>
+		<Contrast>5</Contrast>
+		<Saturation>100</Saturation>
+		<AutoFramerate>0</AutoFramerate>
+		<CameraMode>3</CameraMode>
+		<CropImage>1</CropImage>
+		<PTZControlEnabled>0</PTZControlEnabled>
+		<Source>internal</Source>
+		<MotionDetection>
+			<Enabled>0</Enabled>
+			<UpperThreshold>30</UpperThreshold>
+			<LowerThreshold>5</LowerThreshold>
+			<Region>
+				<X>100</X>
+				<Y>100</Y>
+				<Width>800</Width>
+				<Height>800</Height>
+			</Region>
+		</MotionDetection>
+	</Camera>
+	<Display>
+		<Language>17</Language>
+		<CustomLanguage/>
+		<EntryKeypad>1</EntryKeypad>
+		<Keypad>
+			<Enabled>1</Enabled>
+			<DialEnabled>0</DialEnabled>
+			<Scramble>0</Scramble>
+		</Keypad>
+		<SleepMode>
+			<Enabled>1</Enabled>
+			<SleepBr>2</SleepBr>
+		</SleepMode>
+		<SlideShow>
+			<ActivationTime>600</ActivationTime>
+			<TransitionTime>2</TransitionTime>
+			<Image At="0">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+			<Image At="1">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+			<Image At="2">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+			<Image At="3">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+			<Image At="4">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+			<Image At="5">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+			<Image At="6">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+			<Image At="7">
+				<FileName/>
+				<IsVideo>0</IsVideo>
+				<Blob/>
+			</Image>
+		</SlideShow>
+		<PhoneBook>
+			<Enabled>1</Enabled>
+			<Tree/>
+			<ManModeEnabled>0</ManModeEnabled>
+		</PhoneBook>
+	</Display>
+	<NtpClient>
+		<Enabled>1</Enabled>
+		<ServerAddress>time.nist.gov</ServerAddress>
+		<TimeZone>_MANUAL</TimeZone>
+		<TimeZoneManualRule>UTC0</TimeZoneManualRule>
+	</NtpClient>
+	<Switches>
+		<Switch At="0">
+			<Enabled>1</Enabled>
+			<Mode>0</Mode>
+			<SwitchOnDuration>5</SwitchOnDuration>
+			<SwitchOnProfile/>
+			<QuickDialButton>0</QuickDialButton>
+			<CallActivation>0</CallActivation>
+			<ProfileActivation/>
+			<IoPortName>output1</IoPortName>
+			<SwitchType>1</SwitchType>
+			<SyncSwitch>-1</SyncSwitch>
+			<SyncDelay>0</SyncDelay>
+			<SoundType>2</SoundType>
+			<HttpRequest>
+				<OnUrl/>
+				<OffUrl/>
+				<Username/>
+				<Password Encryption="1"/>
+			</HttpRequest>
+			<CodeMode>0</CodeMode>
+			<Code At="0">
+				<Code>123</Code>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="1">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="2">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="3">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="4">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="5">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="6">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="7">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="8">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="9">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+		</Switch>
+		<Switch At="1">
+			<Enabled>0</Enabled>
+			<Mode>0</Mode>
+			<SwitchOnDuration>5</SwitchOnDuration>
+			<SwitchOnProfile/>
+			<QuickDialButton>0</QuickDialButton>
+			<CallActivation>0</CallActivation>
+			<ProfileActivation/>
+			<IoPortName/>
+			<SwitchType>0</SwitchType>
+			<SyncSwitch>-1</SyncSwitch>
+			<SyncDelay>0</SyncDelay>
+			<SoundType>2</SoundType>
+			<HttpRequest>
+				<OnUrl/>
+				<OffUrl/>
+				<Username/>
+				<Password Encryption="1"/>
+			</HttpRequest>
+			<CodeMode>0</CodeMode>
+			<Code At="0">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="1">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="2">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="3">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="4">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="5">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="6">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="7">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="8">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="9">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+		</Switch>
+		<Switch At="2">
+			<Enabled>0</Enabled>
+			<Mode>0</Mode>
+			<SwitchOnDuration>5</SwitchOnDuration>
+			<SwitchOnProfile/>
+			<QuickDialButton>0</QuickDialButton>
+			<CallActivation>0</CallActivation>
+			<ProfileActivation/>
+			<IoPortName/>
+			<SwitchType>0</SwitchType>
+			<SyncSwitch>-1</SyncSwitch>
+			<SyncDelay>0</SyncDelay>
+			<SoundType>2</SoundType>
+			<HttpRequest>
+				<OnUrl/>
+				<OffUrl/>
+				<Username/>
+				<Password Encryption="1"/>
+			</HttpRequest>
+			<CodeMode>0</CodeMode>
+			<Code At="0">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="1">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="2">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="3">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="4">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="5">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="6">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="7">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="8">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="9">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+		</Switch>
+		<Switch At="3">
+			<Enabled>0</Enabled>
+			<Mode>0</Mode>
+			<SwitchOnDuration>5</SwitchOnDuration>
+			<SwitchOnProfile/>
+			<QuickDialButton>0</QuickDialButton>
+			<CallActivation>0</CallActivation>
+			<ProfileActivation/>
+			<IoPortName/>
+			<SwitchType>0</SwitchType>
+			<SyncSwitch>-1</SyncSwitch>
+			<SyncDelay>0</SyncDelay>
+			<SoundType>2</SoundType>
+			<HttpRequest>
+				<OnUrl/>
+				<OffUrl/>
+				<Username/>
+				<Password Encryption="1"/>
+			</HttpRequest>
+			<CodeMode>0</CodeMode>
+			<Code At="0">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="1">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="2">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="3">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="4">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="5">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="6">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="7">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="8">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+			<Code At="9">
+				<Code/>
+				<AccessMode>0</AccessMode>
+				<Profile/>
+			</Code>
+		</Switch>
+	</Switches>
+	<Email>
+		<Enabled>0</Enabled>
+		<SmtpServer>
+			<Address/>
+			<Port>25</Port>
+			<Login/>
+			<Password Encryption="1"/>
+			<Ttl>1</Ttl>
+			<UserCertPK>0</UserCertPK>
+			<FromAddr/>
+		</SmtpServer>
+		<OnCall>
+			<SendFilter>2</SendFilter>
+			<DefaultDstEmail/>
+			<Template>
+				<Subject>You had a call</Subject>
+				<Text>&lt;h1&gt; Hello, $User$ &lt;/h1&gt; &lt;br&gt;&#x0A;&lt;h2&gt; You had a call at: $DateTime$ &lt;/h2&gt;&#x0A;&lt;p&gt;&#x0A;&lt;h2&gt; The dialed number is $DialNumber$&lt;/h2&gt;&#x0A;&lt;p&gt;&#x0A;&lt;b&gt; This mail is generated automatically by the $DeviceName$ device. Do not reply to this please.&#x0A;&lt;/b&gt;&#x0A;</Text>
+				<PictureAtt>
+					<Enabled>1</Enabled>
+					<Resolution>3</Resolution>
+					<Count>3</Count>
+				</PictureAtt>
+			</Template>
+		</OnCall>
+		<OnCard>
+			<SendFilter>0</SendFilter>
+			<DefaultDstEmail/>
+			<Template>
+				<Subject>$AuthIdType$ event</Subject>
+				<Text>&lt;h1&gt; Hello, $User$ &lt;/h1&gt; &lt;br&gt;&#x0A;&lt;h2&gt; You had a $AuthIdType$ event at: $DateTime$ &lt;/h2&gt;&#x0A;&lt;p&gt;&#x0A;&lt;h2&gt; The Authentication ID is $AuthId$&lt;/h2&gt;&#x0A;&lt;p&gt;&#x0A;&lt;b&gt; This mail is generated automatically by the $DeviceName$ device. Do not reply to this please.&#x0A;&lt;/b&gt;&#x0A;</Text>
+				<PictureAtt>
+					<Enabled>1</Enabled>
+					<Resolution>3</Resolution>
+				</PictureAtt>
+			</Template>
+		</OnCard>
+	</Email>
+	<FtpClient>
+		<Enabled>0</Enabled>
+		<ServerAddress/>
+		<Login/>
+		<Password Encryption="1"/>
+		<PassiveMode>0</PassiveMode>
+		<Snapshots>
+			<Path>/</Path>
+			<Resolution>3</Resolution>
+		</Snapshots>
+		<AutoUploadFilter>0</AutoUploadFilter>
+		<AutoUploadPeriod>60</AutoUploadPeriod>
+	</FtpClient>
+	<Syslog>
+		<Enabled>0</Enabled>
+		<ServerAddress/>
+		<Level>3</Level>
+	</Syslog>
+	<MulticastAudio>
+		<Receiver At="0">
+			<Enabled>0</Enabled>
+			<Volume>0</Volume>
+			<Address/>
+			<Port>22222</Port>
+			<Codec>1</Codec>
+		</Receiver>
+		<Sender At="0">
+			<Enabled>0</Enabled>
+			<Address/>
+			<Port>22222</Port>
+			<Codec>1</Codec>
+		</Sender>
+	</MulticastAudio>
+	<IcuManager>
+		<AccessKey At="0"/>
+		<AccessKey At="1"/>
+		<AccessKey At="2"/>
+		<MjpegResolution>3</MjpegResolution>
+		<MjpegFramerate>1</MjpegFramerate>
+		<MjpegQuality>85</MjpegQuality>
+		<MulticastGroup>1</MulticastGroup>
+	</IcuManager>
+	<AutoUpdate>
+		<Firmware>
+			<Enabled>1</Enabled>
+			<ServerAddress/>
+			<CACert>0</CACert>
+			<CertPK>-1</CertPK>
+			<PrefferedAddress>0</PrefferedAddress>
+			<FilePath>/</FilePath>
+			<AuthEnabled>1</AuthEnabled>
+			<Username/>
+			<Password Encryption="1"/>
+			<CheckAtBootTime>1</CheckAtBootTime>
+			<Period>2592000</Period>
+			<UpdateTime>01:00</UpdateTime>
+			<CheckBetaVer>0</CheckBetaVer>
+		</Firmware>
+		<Configuration>
+			<Enabled>1</Enabled>
+			<ServerAddress/>
+			<CACert>0</CACert>
+			<CertPK>-1</CertPK>
+			<PrefferedAddress>0</PrefferedAddress>
+			<FilePath>/</FilePath>
+			<AuthEnabled>1</AuthEnabled>
+			<Username/>
+			<Password Encryption="1"/>
+			<CheckAtBootTime>1</CheckAtBootTime>
+			<Period>86400</Period>
+			<UpdateTime>01:30</UpdateTime>
+		</Configuration>
+	</AutoUpdate>
+	<AudioLoopTest>
+		<Enabled>0</Enabled>
+		<TestTime>01:30</TestTime>
+		<TestPeriod>86400</TestPeriod>
+	</AudioLoopTest>
+	<UserSounds>
+		<Sound At="0">
+			<Blob/>
+			<Name>User sound 1</Name>
+		</Sound>
+		<Sound At="1">
+			<Blob/>
+			<Name>User sound 2</Name>
+		</Sound>
+		<Sound At="2">
+			<Blob/>
+			<Name>User sound 3</Name>
+		</Sound>
+		<Sound At="3">
+			<Blob/>
+			<Name>User sound 4</Name>
+		</Sound>
+		<Sound At="4">
+			<Blob/>
+			<Name>User sound 5</Name>
+		</Sound>
+		<Sound At="5">
+			<Blob/>
+			<Name>User sound 6</Name>
+		</Sound>
+		<Sound At="6">
+			<Blob/>
+			<Name>User sound 7</Name>
+		</Sound>
+		<Sound At="7">
+			<Blob/>
+			<Name>User sound 8</Name>
+		</Sound>
+		<Sound At="8">
+			<Blob/>
+			<Name>User sound 9</Name>
+		</Sound>
+		<Sound At="9">
+			<Blob/>
+			<Name>User sound 10</Name>
+		</Sound>
+		<Mapping At="0">
+			<Type>-1</Type>
+		</Mapping>
+		<Mapping At="1">
+			<Type>-1</Type>
+		</Mapping>
+		<Mapping At="2">
+			<Type>-1</Type>
+		</Mapping>
+		<Mapping At="3">
+			<Type>-1</Type>
+		</Mapping>
+		<Mapping At="4">
+			<Type>-1</Type>
+		</Mapping>
+		<Mapping At="5">
+			<Type>-1</Type>
+		</Mapping>
+		<Mapping At="6">
+			<Type>-1</Type>
+		</Mapping>
+		<Mapping At="7">
+			<Type>-1</Type>
+		</Mapping>
+	</UserSounds>
+	<Certificates>
+		<CertAuthority1/>
+		<CertAuthority2/>
+		<CertAuthority3/>
+	</Certificates>
+	<License>
+		<Key/>
+		<AutoUpdate>1</AutoUpdate>
+		<ManualUpdateStatus>0</ManualUpdateStatus>
+	</License>
+	<Directory>
+		<User At="0">
+			<Uuid>f3544884-52fc-4300-afbc-e2814be183d0</Uuid>
+			<Name>Call</Name>
+			<TreePath>/</TreePath>
+			<Buttons>1</Buttons>
+			<Calling>
+				<Position At="0">
+					<Peer>9837794582/2</Peer>
+				</Position>
+			</Calling>
+			<Timestamp>1</Timestamp>
+		</User>
+	</Directory>
+	<Profiles>
+		<Holidays/>
+		<Profile At="0">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="1">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="2">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="3">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="4">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="5">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="6">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="7">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="8">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="9">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="10">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="11">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="12">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="13">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="14">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="15">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="16">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="17">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="18">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+		<Profile At="19">
+			<Uuid/>
+			<Name/>
+			<Schedule/>
+		</Profile>
+	</Profiles>
+	<Discovery>
+		<Enabled>1</Enabled>
+		<UserScopes At="0">
+			<Name>onvif://www.onvif.org/location/Undefined</Name>
+		</UserScopes>
+		<UserScopes At="1">
+			<Name>onvif://www.onvif.org/name/2N-IPSolo</Name>
+		</UserScopes>
+		<UserScopes At="2">
+			<Name/>
+		</UserScopes>
+		<UserScopes At="3">
+			<Name/>
+		</UserScopes>
+		<UserScopes At="4">
+			<Name/>
+		</UserScopes>
+		<UserScopes At="5">
+			<Name/>
+		</UserScopes>
+		<UserScopes At="6">
+			<Name/>
+		</UserScopes>
+	</Discovery>
+	<Onvif>
+		<Account At="0">
+			<Enabled>0</Enabled>
+			<Name/>
+			<Password Encryption="1"/>
+			<AccessLevel>1</AccessLevel>
+		</Account>
+		<Account At="1">
+			<Enabled>0</Enabled>
+			<Name/>
+			<Password Encryption="1"/>
+			<AccessLevel>1</AccessLevel>
+		</Account>
+		<Account At="2">
+			<Enabled>0</Enabled>
+			<Name/>
+			<Password Encryption="1"/>
+			<AccessLevel>1</AccessLevel>
+		</Account>
+		<Account At="3">
+			<Enabled>0</Enabled>
+			<Name/>
+			<Password Encryption="1"/>
+			<AccessLevel>1</AccessLevel>
+		</Account>
+		<Account At="4">
+			<Enabled>0</Enabled>
+			<Name/>
+			<Password Encryption="1"/>
+			<AccessLevel>1</AccessLevel>
+		</Account>
+		<Common>
+			<NtpFromDhcp>0</NtpFromDhcp>
+			<DnsFromDhcp>0</DnsFromDhcp>
+			<DnsSearchDomain/>
+		</Common>
+		<Outputs>
+			<OutputsInverted>1</OutputsInverted>
+		</Outputs>
+		<Relays At="0">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="1">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="2">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="3">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="4">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="5">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="6">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="7">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="8">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="9">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="10">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="11">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="12">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="13">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="14">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="15">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="16">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="17">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="18">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="19">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="20">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="21">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="22">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="23">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="24">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="25">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="26">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="27">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="28">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="29">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="30">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="31">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="32">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="33">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="34">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="35">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="36">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="37">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="38">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="39">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="40">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="41">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="42">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="43">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="44">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="45">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="46">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="47">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="48">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="49">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="50">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="51">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="52">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="53">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="54">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="55">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="56">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="57">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="58">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="59">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="60">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="61">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="62">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<Relays At="63">
+			<PortName/>
+			<Mode>0</Mode>
+			<IdleState>0</IdleState>
+			<Duration/>
+		</Relays>
+		<VideoSourceCfg At="0">
+			<Valid>1</Valid>
+			<Name>VIDEO_SOURCE_CFG</Name>
+			<Token>4BB31F64-7B4D-4359-B982-FDAC31429511</Token>
+			<SrcToken>B11F1D1C-CF75-4E81-B1B0-4B11BAC78DA8</SrcToken>
+			<Width>640</Width>
+			<Height>480</Height>
+		</VideoSourceCfg>
+		<VideoSourceCfg At="1">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoSourceCfg>
+		<VideoSourceCfg At="2">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoSourceCfg>
+		<VideoSourceCfg At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoSourceCfg>
+		<VideoSourceCfg At="4">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoSourceCfg>
+		<VideoSourceCfg At="5">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoSourceCfg>
+		<VideoSourceCfg At="6">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoSourceCfg>
+		<VideoSourceCfg At="7">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoSourceCfg>
+		<VideoEncoderCfg At="0">
+			<Valid>1</Valid>
+			<Name>VIDEO_ENCODER_CFG_MJPEG</Name>
+			<Token>2BF3B712-B720-4921-9A8C-B732D98EF9A6</Token>
+			<Codec>5</Codec>
+			<Width>640</Width>
+			<Height>480</Height>
+		</VideoEncoderCfg>
+		<VideoEncoderCfg At="1">
+			<Valid>1</Valid>
+			<Name>VIDEO_ENCODER_CFG_H264</Name>
+			<Token>4BE93471-6155-4EE2-998E-BCFA46D60E5C</Token>
+			<Codec>1</Codec>
+			<Width>640</Width>
+			<Height>480</Height>
+		</VideoEncoderCfg>
+		<VideoEncoderCfg At="2">
+			<Valid>1</Valid>
+			<Name>VIDEO_ENCODER_CFG_MPEG4</Name>
+			<Token>E881B14E-EB15-46F8-AB5C-F242C9B8F5D9</Token>
+			<Codec>2</Codec>
+			<Width>640</Width>
+			<Height>480</Height>
+		</VideoEncoderCfg>
+		<VideoEncoderCfg At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<Codec>0</Codec>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoEncoderCfg>
+		<VideoEncoderCfg At="4">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<Codec>0</Codec>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoEncoderCfg>
+		<VideoEncoderCfg At="5">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<Codec>0</Codec>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoEncoderCfg>
+		<VideoEncoderCfg At="6">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<Codec>0</Codec>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoEncoderCfg>
+		<VideoEncoderCfg At="7">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<Codec>0</Codec>
+			<Width>0</Width>
+			<Height>0</Height>
+		</VideoEncoderCfg>
+		<AudioDecoderCfg At="0">
+			<Valid>1</Valid>
+			<Name>AUDIO_DECODER_CFG</Name>
+			<Token>CB69D2E7-AF2D-49AA-B835-74782DE9D596</Token>
+		</AudioDecoderCfg>
+		<AudioDecoderCfg At="1">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioDecoderCfg>
+		<AudioDecoderCfg At="2">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioDecoderCfg>
+		<AudioDecoderCfg At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioDecoderCfg>
+		<AudioDecoderCfg At="4">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioDecoderCfg>
+		<AudioDecoderCfg At="5">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioDecoderCfg>
+		<AudioDecoderCfg At="6">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioDecoderCfg>
+		<AudioDecoderCfg At="7">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioDecoderCfg>
+		<AudioEncoderCfg At="0">
+			<Valid>1</Valid>
+			<Name>AUDIO_ENCODER_CFG</Name>
+			<Token>0E7D7224-9CB5-42D4-9D71-14E94A9A39DE</Token>
+		</AudioEncoderCfg>
+		<AudioEncoderCfg At="1">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioEncoderCfg>
+		<AudioEncoderCfg At="2">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioEncoderCfg>
+		<AudioEncoderCfg At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioEncoderCfg>
+		<AudioEncoderCfg At="4">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioEncoderCfg>
+		<AudioEncoderCfg At="5">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioEncoderCfg>
+		<AudioEncoderCfg At="6">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioEncoderCfg>
+		<AudioEncoderCfg At="7">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+		</AudioEncoderCfg>
+		<AudioSourceCfg At="0">
+			<Valid>1</Valid>
+			<Name>AUDIO_SOURCE_CFG</Name>
+			<Token>FB7DC07D-784C-41DC-BB43-81FC9791E0E3</Token>
+			<SrcToken>AD9830E2-6259-4B5A-AF88-A0ABD84F266B</SrcToken>
+		</AudioSourceCfg>
+		<AudioSourceCfg At="1">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+		</AudioSourceCfg>
+		<AudioSourceCfg At="2">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+		</AudioSourceCfg>
+		<AudioSourceCfg At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+		</AudioSourceCfg>
+		<AudioSourceCfg At="4">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+		</AudioSourceCfg>
+		<AudioSourceCfg At="5">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+		</AudioSourceCfg>
+		<AudioSourceCfg At="6">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+		</AudioSourceCfg>
+		<AudioSourceCfg At="7">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<SrcToken/>
+		</AudioSourceCfg>
+		<AudioOutputCfg At="0">
+			<Valid>1</Valid>
+			<Name>AUDIO_OUTPUT_CFG</Name>
+			<Token>F614D0B2-AD58-4714-9663-57243F8CCD1B</Token>
+			<OutToken>BEE31CF5-C913-4ABC-8D27-62F51623CA90</OutToken>
+			<Level>8</Level>
+		</AudioOutputCfg>
+		<AudioOutputCfg At="1">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<OutToken/>
+			<Level>0</Level>
+		</AudioOutputCfg>
+		<AudioOutputCfg At="2">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<OutToken/>
+			<Level>0</Level>
+		</AudioOutputCfg>
+		<AudioOutputCfg At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<OutToken/>
+			<Level>0</Level>
+		</AudioOutputCfg>
+		<AudioOutputCfg At="4">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<OutToken/>
+			<Level>0</Level>
+		</AudioOutputCfg>
+		<AudioOutputCfg At="5">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<OutToken/>
+			<Level>0</Level>
+		</AudioOutputCfg>
+		<AudioOutputCfg At="6">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<OutToken/>
+			<Level>0</Level>
+		</AudioOutputCfg>
+		<AudioOutputCfg At="7">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<OutToken/>
+			<Level>0</Level>
+		</AudioOutputCfg>
+		<Profiles At="0">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<Profiles At="1">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<Profiles At="2">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<Profiles At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<Profiles At="4">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<Profiles At="5">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<Profiles At="6">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<Profiles At="7">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</Profiles>
+		<FixedProfiles At="0">
+			<Valid>1</Valid>
+			<Name>PROFILE1</Name>
+			<Token>4FC68F7A-BE39-4972-9065-48D5BF4E9CCA</Token>
+			<VideoSourceCgfToken>4BB31F64-7B4D-4359-B982-FDAC31429511</VideoSourceCgfToken>
+			<VideoEncoderCfgToken>2BF3B712-B720-4921-9A8C-B732D98EF9A6</VideoEncoderCfgToken>
+			<AudioSourceCfgToken>FB7DC07D-784C-41DC-BB43-81FC9791E0E3</AudioSourceCfgToken>
+			<AudioEncoderCfgToken>0E7D7224-9CB5-42D4-9D71-14E94A9A39DE</AudioEncoderCfgToken>
+			<AudioOutputCfgToken>F614D0B2-AD58-4714-9663-57243F8CCD1B</AudioOutputCfgToken>
+			<AudioDecoderCfgToken>CB69D2E7-AF2D-49AA-B835-74782DE9D596</AudioDecoderCfgToken>
+		</FixedProfiles>
+		<FixedProfiles At="1">
+			<Valid>1</Valid>
+			<Name>PROFILE2</Name>
+			<Token>2FF07D44-8FF7-4983-99CB-31AF589BFB3A</Token>
+			<VideoSourceCgfToken>4BB31F64-7B4D-4359-B982-FDAC31429511</VideoSourceCgfToken>
+			<VideoEncoderCfgToken>4BE93471-6155-4EE2-998E-BCFA46D60E5C</VideoEncoderCfgToken>
+			<AudioSourceCfgToken>FB7DC07D-784C-41DC-BB43-81FC9791E0E3</AudioSourceCfgToken>
+			<AudioEncoderCfgToken>0E7D7224-9CB5-42D4-9D71-14E94A9A39DE</AudioEncoderCfgToken>
+			<AudioOutputCfgToken>F614D0B2-AD58-4714-9663-57243F8CCD1B</AudioOutputCfgToken>
+			<AudioDecoderCfgToken>CB69D2E7-AF2D-49AA-B835-74782DE9D596</AudioDecoderCfgToken>
+		</FixedProfiles>
+		<FixedProfiles At="2">
+			<Valid>1</Valid>
+			<Name>PROFILE3</Name>
+			<Token>888EF635-E192-4E4D-9729-612941712D91</Token>
+			<VideoSourceCgfToken>4BB31F64-7B4D-4359-B982-FDAC31429511</VideoSourceCgfToken>
+			<VideoEncoderCfgToken>E881B14E-EB15-46F8-AB5C-F242C9B8F5D9</VideoEncoderCfgToken>
+			<AudioSourceCfgToken>FB7DC07D-784C-41DC-BB43-81FC9791E0E3</AudioSourceCfgToken>
+			<AudioEncoderCfgToken>0E7D7224-9CB5-42D4-9D71-14E94A9A39DE</AudioEncoderCfgToken>
+			<AudioOutputCfgToken>F614D0B2-AD58-4714-9663-57243F8CCD1B</AudioOutputCfgToken>
+			<AudioDecoderCfgToken>CB69D2E7-AF2D-49AA-B835-74782DE9D596</AudioDecoderCfgToken>
+		</FixedProfiles>
+		<FixedProfiles At="3">
+			<Valid>0</Valid>
+			<Name/>
+			<Token/>
+			<VideoSourceCgfToken/>
+			<VideoEncoderCfgToken/>
+			<AudioSourceCfgToken/>
+			<AudioEncoderCfgToken/>
+			<AudioOutputCfgToken/>
+			<AudioDecoderCfgToken/>
+		</FixedProfiles>
+	</Onvif>
+	<Automation>
+		<Group At="0">
+			<Enabled>1</Enabled>
+			<Source>&#x7B;&quot;title&quot;:&quot;&quot;,&quot;source&quot;:[]&#x7D;</Source>
+		</Group>
+		<Group At="1">
+			<Enabled>1</Enabled>
+			<Source>&#x7B;&quot;title&quot;:&quot;&quot;,&quot;source&quot;:[]&#x7D;</Source>
+		</Group>
+		<Group At="2">
+			<Enabled>1</Enabled>
+			<Source>&#x7B;&quot;title&quot;:&quot;&quot;,&quot;source&quot;:[]&#x7D;</Source>
+		</Group>
+		<Group At="3">
+			<Enabled>1</Enabled>
+			<Source>&#x7B;&quot;title&quot;:&quot;&quot;,&quot;source&quot;:[]&#x7D;</Source>
+		</Group>
+		<Group At="4">
+			<Enabled>1</Enabled>
+			<Source>&#x7B;&quot;title&quot;:&quot;&quot;,&quot;source&quot;:[]&#x7D;</Source>
+		</Group>
+		<Group At="5">
+			<Enabled>0</Enabled>
+			<Source>&#x7B;&quot;title&quot;:&quot;&quot;,&quot;source&quot;:[]&#x7D;</Source>
+		</Group>
+	</Automation>
+	<Vbus>
+		<ConfigEntry At="0">
+			<SerialNumber>54-2202-4031</SerialNumber>
+			<ConfigString>$master;name=;logLevel=0;out1power=5000;keyMode=1;led_call=;led_wait=;led_door=;led_lock=;led_tag1=;led_key1=;led_bklit=;led_infra=;</ConfigString>
+		</ConfigEntry>
+		<ConfigEntry At="1">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="2">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="3">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="4">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="5">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="6">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="7">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="8">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="9">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="10">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="11">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="12">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="13">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="14">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="15">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="16">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="17">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="18">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="19">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="20">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="21">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="22">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="23">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="24">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="25">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="26">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="27">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="28">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="29">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="30">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="31">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="32">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="33">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<ConfigEntry At="34">
+			<SerialNumber/>
+			<ConfigString/>
+		</ConfigEntry>
+		<PollingPeriod>25</PollingPeriod>
+	</Vbus>
+	<MobileKey>
+		<ConfigCounter>287</ConfigCounter>
+		<Version>1.0</Version>
+		<Location>54-2201-8523</Location>
+		<PairingDuration>3600</PairingDuration>
+		<PairingKey>MIICXwIBAAKBgQDZ1P+Lo3jZud0u7fwHc1264YOb93r8AtTzHNBdrB5O9Fqa7BWXrC0lGS7k2mgiAUXWtad21X1ZXCCn1aOcvoT3fz0B4dl5mfun49vuq99u8B5EebK+fkJ3s4sF08maFrfuxQ6rU9mXz2IMHpu8q7QZyYjozmd/6uGtFXNigwtS7wIDAQABAoGBAK70eU8RO/Y7Zt/TevINAcIgcJErQxb3u0uL3/rsS+eEMOVvKqSIQDYktNpQZQSy2wHpIpi6PZQw/3VtjJxPFQEsHP3XaEiKT8NjYLOxl5lYksBhwmHRvVDtwS//UhqEcOWF6WeoSQhpB4BbBZXq9Pwp7zGYaBPh84Tot19ezqFxAkEA9GN3pKcBSypXfhMcdQjmnIXs9GQQcoTbMqihpLa7GTcdmDhrUJKRelp8QZDjeiXnj/oH9tuCvT+2yB8oIMESyQJBAOQuhSeeAI5QYlfdW/7myCKDHic9GvBjP8fO5RBrKLBmbsrXthDmz8XqqUNRMwAUXW19I3bRe2uCTmh3SeIPG/cCQQCZriMCi3KozcuPIH14q0w5iY5kcLhXC2y8AocDiVVGmf4mRvRVCpYpFtWkdXRWz5c6VsTDW25vi61pUw5s6nzhAkEA1LO0tehoNkEiWytiTSuN1fYJjqQ8T2cFFll7V6G8bSsfDgCkm/68IY8MN08izmktahmjjGfbt6zhMCo6efqBowJBAPB4Zsz6KdxocK8jC7FWQtdszdlMAGBoEZz3azqrGutpDEDdk9aeBSYudeSwFC8aegfV9n8PP5OmkjOcgd3uXpw=;ctime=52</PairingKey>
+		<AuthKey At="0">MIICXQIBAAKBgQDFCEvPI/NC+MDjzEJRw/EGGEIcgw4IOzad5+BgkFwDQ4aglDxUHHboG98F5c53ChfOr0H+sQQUWtxt+xaGnC03WEh5Y7aHAMAnYxi8yqJBQ08K8mL1Z5Tzdhld9zD/2dulIPnW2MofSjZI2XJ19ViclRxlTrkpJhV9bLLhTxCPbQIDAQABAoGAAfjjSV+Cv9jdlWol/8uGThlQEBj/uvVcxpfblxvaz+2NG25gbDccuZYN1XFHb8maE2eNsY70C4AdVLx+rTpC+ZZUzzcBXKLsbTsmqDv6d5HRuFBSpTbuMkp5h33N1ci3Q4nZ3rnf24fikiv/UYNpdmDRBzXgV50I1pxzdZt1HcECQQD2FGNUrHLifon3qdqY/569u7sIQt/XgVdhDcDYr8RsGTCL90QLYNzxCf3Oy3mYXYp7P12c2TZ85crLreoektRHAkEAzPm6CJIF9UGN+YaJwDDcKokdKogR022rbhdVkw9xEUDLj8cH+avVLjTbNcctP7jPppU285w+nIWwkJoEGZMcqwJBANDEm0DKzOy6zfH/eCU1OEdfbV2k3qLGaIs+T82F0O6ksDsOm/vLQaZ9A4bduVs6gLHvIExhO4jaqyIBeg5WIyECQQCEThUUfxy1Z/D6RSsZEPCrzAE1eMr4y+tBjnJAEFGNL2O1lGTDdXSO9LMiDURZwzLVda8Yo5uOcIS9cYx/7YMtAkB++gWAYnafdAUj81yku5hisB3G1OBUaBX5yCo8Crj/nWOqBKeCLiZb+uhuu9bgCxSP/o+ssqX4ZUq2Q4Dhyrvn;ctime=52</AuthKey>
+		<AuthKey At="1"/>
+		<AuthKey At="2"/>
+		<AuthKey At="3"/>
+	</MobileKey>
+	<IrPowerManager>
+		<IrBrightness>-1</IrBrightness>
+		<IrManagementEnabled>1</IrManagementEnabled>
+		<UnderExposureTime>0.000000</UnderExposureTime>
+		<UnderExposureTimeEnabled>0</UnderExposureTimeEnabled>
+		<NormalExposureTime>0.000000</NormalExposureTime>
+		<NormalExposureTimeEnabled>0</NormalExposureTimeEnabled>
+		<OverExposureTime>0.000000</OverExposureTime>
+		<OverExposureTimeEnabled>0</OverExposureTimeEnabled>
+	</IrPowerManager>
+	<AmbientLight>
+		<Mode>0</Mode>
+	</AmbientLight>
+	<AcousticFeedbackSystem>
+		<Enabled>0</Enabled>
+	</AcousticFeedbackSystem>
+	<Informacast>
+		<Enabled>0</Enabled>
+		<BroadcastEnabled>1</BroadcastEnabled>
+		<CaptureEnabled>1</CaptureEnabled>
+		<ListenEnabled>1</ListenEnabled>
+		<RebootEnabled>1</RebootEnabled>
+	</Informacast>
+	<LogicalInputs>
+		<Secured>
+			<Name/>
+			<Inverted>0</Inverted>
+		</Secured>
+		<Tamper>
+			<Name/>
+			<SwitchBlockingEnabled>0</SwitchBlockingEnabled>
+		</Tamper>
+	</LogicalInputs>
+	<Snmp>
+		<Enabled>0</Enabled>
+		<Contact/>
+		<Name/>
+		<Location/>
+		<ReadCommunity/>
+		<WriteCommunity/>
+		<AllowedIPAddress At="0"/>
+		<AllowedIPAddress At="1"/>
+		<AllowedIPAddress At="2"/>
+		<AllowedIPAddress At="3"/>
+		<TrapIPAddress At="0"/>
+	</Snmp>
+	<Cwmp>
+		<Enabled>1</Enabled>
+		<Profile>0</Profile>
+		<Profiles At="0">
+			<ACSServerURL>https://my2n.com/acs/</ACSServerURL>
+			<Username>54-2201-8523_1_0449028f</Username>
+			<Password Encryption="1">APXBoNLM11kdIuMiJybrqBX0eRf6A+s9DKj39EBdKhRlqUTjPkmWIQ+autCSXI93</Password>
+			<CACert>0</CACert>
+			<CertPK>0</CertPK>
+			<PeriodicInformEnabled>1</PeriodicInformEnabled>
+			<PeriodicInformInterval>39908</PeriodicInformInterval>
+		</Profiles>
+		<Profiles At="1">
+			<ACSServerURL/>
+			<Username/>
+			<Password Encryption="1"/>
+			<CACert>0</CACert>
+			<CertPK>0</CertPK>
+			<PeriodicInformEnabled>1</PeriodicInformEnabled>
+			<PeriodicInformInterval>14400</PeriodicInformInterval>
+		</Profiles>
+		<Cloud2N>
+			<ID>850059398730</ID>
+		</Cloud2N>
+		<Stun>
+			<Enabled>0</Enabled>
+			<ServerAddress/>
+			<ServerPort>3478</ServerPort>
+			<Username/>
+			<Password Encryption="1"/>
+			<MaxKeepAlivePeriod>-1</MaxKeepAlivePeriod>
+			<MinKeepAlivePeriod>0</MinKeepAlivePeriod>
+		</Stun>
+		<ProvisioningCode/>
+		<Persistent>
+			<Bootstrap>0</Bootstrap>
+		</Persistent>
+	</Cwmp>
+	<PushNotify>
+		<Tls>1</Tls>
+		<Url>knock.my2n.com:443</Url>
+	</PushNotify>
+	<Productstat>
+		<Enabled>1</Enabled>
+	</Productstat>
+	<Crestron>
+		<Enabled>0</Enabled>
+		<DeviceName>DoorStation</DeviceName>
+		<Groups/>
+	</Crestron>
+	<AccessControl>
+		<RioEnabled>0</RioEnabled>
+		<Door At="0">
+			<Switch>0</Switch>
+			<Rex>
+				<InputPort/>
+				<Inverted>0</Inverted>
+			</Rex>
+			<Sensor>
+				<InputPort/>
+				<Inverted>0</Inverted>
+				<UnauthorisedOpen>0</UnauthorisedOpen>
+				<OpenTooLong>0</OpenTooLong>
+				<TimeLimit>60</TimeLimit>
+			</Sensor>
+		</Door>
+		<AccessPoint At="0">
+			<Enabled>1</Enabled>
+			<Name/>
+			<Signalization>2</Signalization>
+			<WiegandGroup>0</WiegandGroup>
+			<SilentAlarm>0</SilentAlarm>
+			<LimitFailedAccess>0</LimitFailedAccess>
+			<AccessProfile At="0">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<AccessProfile At="1">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<AccessProfile At="2">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<AccessProfile At="3">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<PlusMinus>
+				<PlusCode/>
+				<MinusCode/>
+				<PlusCard/>
+				<MinusCard/>
+			</PlusMinus>
+			<ZonalCode/>
+			<AntiPassback>
+				<Mode>0</Mode>
+				<Timeout>300</Timeout>
+			</AntiPassback>
+		</AccessPoint>
+		<AccessPoint At="1">
+			<Enabled>1</Enabled>
+			<Name/>
+			<Signalization>2</Signalization>
+			<WiegandGroup>0</WiegandGroup>
+			<SilentAlarm>0</SilentAlarm>
+			<LimitFailedAccess>0</LimitFailedAccess>
+			<AccessProfile At="0">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<AccessProfile At="1">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<AccessProfile At="2">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<AccessProfile At="3">
+				<TimeProfile/>
+				<AuthMode>65535</AuthMode>
+				<ZonalCode>1</ZonalCode>
+				<ReqButton>1</ReqButton>
+			</AccessProfile>
+			<PlusMinus>
+				<PlusCode/>
+				<MinusCode/>
+				<PlusCard/>
+				<MinusCard/>
+			</PlusMinus>
+			<ZonalCode/>
+			<AntiPassback>
+				<Mode>0</Mode>
+				<Timeout>300</Timeout>
+			</AntiPassback>
+		</AccessPoint>
+	</AccessControl>
+	<RioManager>
+		<ServerAddress/>
+		<UserName/>
+		<Password Encryption="1">1EXnVxthEsOtJWr1PhqgHg==</Password>
+	</RioManager>
+</DeviceDatabase>

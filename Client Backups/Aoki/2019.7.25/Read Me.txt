@@ -1,0 +1,7 @@
+backups done before upgrade
+
+
+fortigate at 5.0 -    FGT60D4614058431_20190725_0907 
+
+
+upgraded path all the way to 5.4.12 - FGT60D4614058431_20190725_1144
